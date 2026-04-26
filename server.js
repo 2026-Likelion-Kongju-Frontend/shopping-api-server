@@ -35,7 +35,7 @@ const swaggerDocument = {
     },
     servers: [
         {
-            url: process.env.SERVER_URL || `http://localhost:${PORT}`,
+            url: "https://shopping-api-server.onrender.com",
         },
     ],
     tags: [
